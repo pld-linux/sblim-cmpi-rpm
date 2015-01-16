@@ -1,0 +1,11 @@
+--- sblim-cmpi-rpm-1.0.1/Makefile.am.orig	2007-05-17 04:39:01.000000000 +0200
++++ sblim-cmpi-rpm-1.0.1/Makefile.am	2015-01-16 19:15:15.750786819 +0100
+@@ -72,7 +72,7 @@
+                   libcimrpmv4.la
+ 
+ libcimrpm_la_SOURCES = cimrpm.c
+-# libcimrpm_la_LIBADD = -ldl
++libcimrpm_la_LIBADD = -ldl
+ libcimrpm_la_LDFLAGS = -Wc,-nostartfiles
+ 
+ libcimrpmv4_la_SOURCES = cimrpmv4.c
